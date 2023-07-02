@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Froms in html</h2>
+
+<form action="backend.php">
+        <label for="name"> Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="Role">Role</label>
+            Role: <input type="text" name="myRole" id="Role">
+        </div>
+        <br>
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" name="myEmail" id="Email">
+        </div>
+
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+
+    <!-- what is an inline element and a block element -->
+    <strong style="border: 2px solid red;">this is a paragraph</strong> <a style="border: 2px solid blue;">
+        this is also a paragraph</a>
+    <span style="border: 2px solid red;">this is a span</span> <span style="border: 2px solid red;">this is also a span</span>
+
+
+    <h3>Ids and classes tutorial</h3>
+    <div id="mainBox" class="redBg blackBorder">
+        this is mainbox
+    </div>
+    <span class="redBg"></span>
+    <!-- Select and press ctrl + / to comment -->
+    <!-- Emmet -->
+    <!-- . is for class and # is for id -->
+    <span class="redBg"></span>
+    <span id="mainSpan"></span>
+    <div class="redBg blackBorder anotherClass"></div>
+
+    <!-- Emmet takes div tag as default -->
+    <div class="blackBackground"></div>
+
+    <!-- Creating multiple elements using Emmet -->
+    <!-- span.myClass.myClass2.myClass3*4 + <Tab> to print 4 similar elements using Emmet -->
+    <span class="myClass myClass2 myClass3">First</span>
+    <span class="myClass myClass2 myClass3">Second</span>
+    <span class="myClass myClass2 myClass3">Third</span>
+    <span class="myClass myClass2 myClass3">Fourth</span>
+
+    <h1>Html Entaties</h1>
+    <div class="container">
+        <p>This is another     paragraph with two spaces</p>
+        <p>Paragraph is written like this <p> </p>
+        <p>Pound is written like this £ </p>
+        <p>Copyright is written like this © </p>
+        <p>Another character is  ⇛ </p>
+        <p>Another character is  ¼ </p>
+        <p>Empty character is written like this &nbsp;</p>
+    </div>
+
+</body>
+</html>
