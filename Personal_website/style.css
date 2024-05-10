@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 500px;
+    width: auto;
+    display: flex;
+}
+
+.herder_right img{
+ width: 100%;
+}
